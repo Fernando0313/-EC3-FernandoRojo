@@ -9,9 +9,10 @@ import com.idat.dto.request.HospitalRegistrar;
 import com.idat.model.Hospital;
 
 public interface HospitalService {
-	public void registo(HospitalRegistrar hospital);
+	public void registro(HospitalRegistrar hospital);
 	public void actualizarHospital(HospitalEditar hospital);
 	public List<Hospital> listar();
 	public Hospital buscarId(Integer id);
 	public void eliminar(Integer id);
+	
 }
