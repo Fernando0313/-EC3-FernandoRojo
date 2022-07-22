@@ -39,7 +39,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
 		
 		http.authorizeRequests()
-			.antMatchers("/crearToken").permitAll()
+			.antMatchers("/api/v1/crearToken").permitAll()
 			.anyRequest()
 			.authenticated()
 			.and()

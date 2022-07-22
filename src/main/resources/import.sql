@@ -1,0 +1,3 @@
+insert into usuario_cliente(password,rol,usuario,id_cliente) values ('$2a$12$XGVTmvE.JwHsF71tnclkf.cUGsAAndmjSOL9LVtmI1AqZ2WHoxLqm','ROLE_ADMIN','fernando0313',1)
+insert into usuario_cliente(password,rol,usuario,id_cliente)  values ('$2a$12$XGVTmvE.JwHsF71tnclkf.cUGsAAndmjSOL9LVtmI1AqZ2WHoxLqm','ROLE_ADMIN','chinininuwu',2)
+insert into usuario_cliente(password,rol,usuario,id_cliente)  values ('$2a$12$XGVTmvE.JwHsF71tnclkf.cUGsAAndmjSOL9LVtmI1AqZ2WHoxLqm','ROLE_ADMIN','ronohazoro',3)
